@@ -29,11 +29,7 @@ class WerewolfOperator(CommandOperator):
         self.config = self.load_config()
         self.game: Optional[Game] = None
         self.api_keys = [
-            "hk-8kfq3h1000040760ea1a66dcea6b627d0c9deda61653e9e2",
-            "hk-xj8omb1000040760e443f688d6d46c517ff9e33bf263345a",
-            "hk-x52a9610000407603400068d337eda25b865039d0ca1f40e",
-            "hk-yx3q9e1000040760fef751fd63f8a2b2155a669d523c90d5",
-            "hk-ux3qa7100004076073ab914834857131227b66c72a871db2"
+
         ]
         self.ai_keys = {}  # 存储AI玩家和他们的key的映射
         self.api_url = "https://api.openai-hk.com/v1/chat/completions"
