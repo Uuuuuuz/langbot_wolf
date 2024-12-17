@@ -1,0 +1,57 @@
+{
+    "min_players": 6,
+    "max_players": 12,
+    "role_config": {
+        "6": {
+            "WEREWOLF": 2,
+            "VILLAGER": 2,
+            "SEER": 1,
+            "WITCH": 1
+        },
+        "7": {
+            "WEREWOLF": 2,
+            "VILLAGER": 3,
+            "SEER": 1,
+            "WITCH": 1
+        },
+        "8": {
+            "WEREWOLF": 2,
+            "VILLAGER": 3,
+            "SEER": 1,
+            "WITCH": 1,
+            "HUNTER": 1
+        },
+        "9": {
+            "WEREWOLF": 3,
+            "VILLAGER": 3,
+            "SEER": 1,
+            "WITCH": 1,
+            "HUNTER": 1
+        },
+        "10": {
+            "WEREWOLF": 3,
+            "VILLAGER": 4,
+            "SEER": 1,
+            "WITCH": 1,
+            "HUNTER": 1
+        },
+        "11": {
+            "WEREWOLF": 3,
+            "VILLAGER": 5,
+            "SEER": 1,
+            "WITCH": 1,
+            "HUNTER": 1
+        },
+        "12": {
+            "WEREWOLF": 4,
+            "VILLAGER": 5,
+            "SEER": 1,
+            "WITCH": 1,
+            "HUNTER": 1
+        }
+    },
+    "speaking_time": 60,
+    "voting_time": 30,
+    "night_action_time": 30,
+    "hunter_shoot_time": 30
+} 
