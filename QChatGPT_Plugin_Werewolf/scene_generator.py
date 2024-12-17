@@ -208,7 +208,7 @@ async def get_random_scene() -> dict:
 
 async def get_ai_behavior_report(ai_player: dict, game_state: dict, is_day: bool) -> str:
     """获取AI玩家的行为报告"""
-    api_key = "hk-yp8t301000040760f637db2c86cdefc87b4e9c61cbbf803a"
+    api_key = ""
     
     # 构建状态信息
     player_info = {
